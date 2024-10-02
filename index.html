@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Teaching Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI-Powered Socratic Teaching Assistant</h1>
+            <p>Learn by answering thought-provoking questions.</p>
+        </header>
+        
+        <div class="assistant-section">
+            <div id="assistant-question" class="question-box">
+                <p>Welcome! I will ask questions to guide your learning. What subject do you want to learn today?</p>
+            </div>
+            <input type="text" id="student-response" placeholder="Your response here...">
+            <button id="submit-response">Submit</button>
+        </div>
+        
+        <div class="history-section">
+            <h2>Conversation History</h2>
+            <ul id="conversation-history"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
